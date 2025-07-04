@@ -1,0 +1,18 @@
+{
+  "name": "ass",
+  "version": "0.1.0",
+  "metadata": {
+    "fileTypes": ["ass"],
+    "displayName": "ASS subtitle",
+    "version": "0.1.0"
+  },
+  "grammars": [
+    {
+      "scope": "source.ass",
+      "path": "./src",
+      "file-types": ["ass"],
+      "highlights": "queries/highlights.scm",
+      "version": "0.1.0"
+    }
+  ]
+}

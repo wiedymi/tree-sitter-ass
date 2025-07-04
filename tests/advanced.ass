@@ -1,0 +1,7 @@
+[Script Info]
+Title: Advanced Features Sample
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,{\fad(250,250)\move(0,0,100,100,0,500)\fe128\q2\c&HFF0000&\p1}m 0 0 l 0 100 l 100 100 l 100 0{\p0}{\t(0,500,0.5,\3c&H00FF00&\bord3)}\N{\k50}Hello{\K30}{\kf50} world{\ko25}! 
+Dialogue: 0,0:00:06.00,0:00:10.00,Default,,0,0,0,,{\1c&red&}This line uses a named color 
